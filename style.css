@@ -49,7 +49,6 @@ video{
     opacity: 0.8;
 }
 .logo{
-    position: absolute;
     font-size: 100px;
     z-index:10;
     border:white; 
@@ -84,12 +83,28 @@ video{
     padding-top: 50px;
 }
 .footer1 img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10%;
     
 }
 .footer1{
-    background-color: black;
+    background-color: white;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
+.navbar-active {
+    color: #FFF;
+    text-shadow: 3px 3px 0.125rem rgb(104, 102, 102);
+    font-size: 22px;
+}
+footer{
+    border-top:  20px;
+    background-color: #f6f6f6;
+    fill: #f6f6f6;
+}
